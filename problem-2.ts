@@ -3,7 +3,7 @@ type NumberArray = number[];
 
 // Function to remove duplicates from the array
 const removeDuplicates = (array: NumberArray ): NumberArray =>{
-    
+
     // Using a Set to automatically remove duplicates
     const uniqArray : NumberArray = [... new Set(array)]  
     console.log(uniqArray);
