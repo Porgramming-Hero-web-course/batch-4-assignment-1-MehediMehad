@@ -1,4 +1,4 @@
-
+{
 // Type alias 'NumberArray' to define an array of numbers
 type NumberArray = number[];
 
@@ -11,3 +11,4 @@ const sumArray = (array: NumberArray): number => {
 
 sumArray([1, 2, 3, 4, 5, 5, 5]);
 
+}
