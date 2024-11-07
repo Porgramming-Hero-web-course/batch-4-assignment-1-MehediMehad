@@ -10,4 +10,4 @@ const removeDuplicates = (array: NumberArray ): NumberArray =>{
     return uniqArray
 }
 
-removeDuplicates([1, 2, 3, 2, 5, 1, 3, 4, 4, 7, 9, 1,])
+removeDuplicates([1, 2, 3, 2, 5, 1, 3, 4, 4, 7, 9, 1, 55])
